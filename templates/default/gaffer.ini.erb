@@ -1,0 +1,5 @@
+[gaffer]
+http_endpoints = public
+
+[endpoint:public]
+bind = <%= @node['gaffer']['host'] %>:<%= @node['gaffer']['port'] %>
